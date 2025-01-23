@@ -5,6 +5,7 @@ import React from 'react';
 const Navbar = async () => {
    const { getUser } = getKindeServerSession();
    const user = await getUser();
+   console.log(user)
 
 
    const publicLinks = <>
